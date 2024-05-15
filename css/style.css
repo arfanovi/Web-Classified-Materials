@@ -1,3 +1,23 @@
+
+
+
+.navbar .nav-link {
+    color: #333; /* Navbar link color */
+  }
+  .navbar .nav-link:hover {
+    color: #007bff; /* Hover color */
+  }
+  .search-icon {
+    cursor: pointer;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Hover shadow */
+    background-color: #f8f9fa; /* Hover background color */
+  }
+
+
+
+
 .buttonAll{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,8 +50,24 @@
     cursor: wait;
 }
 
+.p-all{
+    text-align: center;
+    justify-items: center;
+    padding: 15px;
+    background-color: #e8efdf;
+    border-radius: 10px;
+}
 
+.p-head{
+    height: 100px;
+     padding: 50px;;
+}
+.t-title{
+    font-size: 21px;
+  font-style: italic;
+  font-weight: 500;
 
+}
 @media (max-width: 767.98px){
     .buttonAll{
         display: grid;

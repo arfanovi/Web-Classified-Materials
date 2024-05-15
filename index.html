@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <!-- Latest compiled and minified CSS -->
     <!-- CUstom CSS  -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap Link  -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -14,6 +17,66 @@
     <title>WebSite Features Sample</title>
 </head>
 <body>
+
+
+    
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Educational</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Journey</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Web Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Analytics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Technology</a>
+                </li>
+
+                <li>
+                  
+                </li>
+                <!-- Dropdown for Technology paths -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Paths
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">JavaScript</a>
+                    <a class="dropdown-item" href="#">ReactJS</a>
+                    <a class="dropdown-item" href="#">NodeJS</a>
+                    <a class="dropdown-item" href="#">ExpressJS</a>
+                    <a class="dropdown-item" href="#">MongoDB</a>
+                  </div>
+                </li>
+              </ul>
+              <!-- Search bar with search icon -->
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                  <span class="input-group-text search-icon"><i class="material-icons">search</i></span>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+
+
+
+    
     
     <!-- Design 6 Buttons  -->
 
@@ -46,7 +109,86 @@
         </div>
     </section>
 
+
+    
+    <section>
+        <div class="container mt-5">
+          <div class="row flex-row-reverse">
+            <div class="col">
+              <h1>SDLC</h1>
+  
+            </div>
+            <div class="col">
+              <h1>Tools</h1>
+  
+            </div>
+            <div class="col">
+              <h1>Technique</h1>
+  
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+
+        <div class="container mt-5">
+            <form>
+              <div class="form-group row">
+                <label for="inputGroup" class="col-sm-2 col-form-label">Username</label>
+                <div class="col-sm-10">
+                  <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="inputGroup" placeholder="Username">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control form-control-sm" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                  <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+    </section>
+
+
+    <section>
+        <div class="p-head">
+            <div class="p-all">
+                <h1>Web Dev  Directions</h1>
+                <div class="">
+                    
+                    <p class="p-title">        
+                        If you ever tried to start learning web development you probably encountered some terms like stacks and ends. Let us clarify the most basic part, there are three types of web development roles:
+                        Front-end works on the visual parts of a website. It includes the development of layouts, styles, animations, transitions, buttons, and more. A common task for a front-end developer is making a website look exactly as drawn by the designer on any device and browser. Keep in mind that the developer is not a designer.
+                        Back-end works on the unseen magic of a website. It includes the development of databases, server communication methods, and more. A common task for this kind of developer is to create a database that stores user input and allows simple navigation and extraction of data.
+                        Full stack is a combination of the above. This kind of developer should be able to create and launch a proper website alone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ 
+
     <!-- Bootstrap Link  -->
     <script src="js/bootstrap.bundle.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 </body>
 </html>
